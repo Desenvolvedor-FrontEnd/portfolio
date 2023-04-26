@@ -18,20 +18,20 @@
 
     <main class="container-input">
 
-        <span>Tamanhos <span id="valor"></span> caracteres</span>
+        <span>Tamanho: <span id="valor"></span> caracteres</span>
 
-        <input id="slider" class="slider" type="range" min="5" max="25" value="15"/>
+        <input id="slider" class="slider" type="range" min="5" max="15" value="10"/>
 
         <button id="but
-        " class="button-cta">Gerar senha</button>
+        " class="button-cta" onclick="generatePassword()">Gerar senha</button>
 
     </main>
 
-    <div id="container-password" class="container-password hide">
+    <div id="container-password" class="container-password hide" onclick="copyPassword()">
 
         <span class="title">Sua senha gerada foi:</span>
 
-        <span class="password">123456789</span>
+        <span class="password"></span>
 
         <span class="tooltip">Clique na senha para copiá-la 👆</span>
 

@@ -16,13 +16,17 @@ body {
 }
 
 .logo {
-    max-width: 600px;
+    max-width: 480px;
     margin-bottom: 24px;
 }
 
 .container-input {
     max-width: 480px;
     margin: 14px 0;
+}
+
+input {
+    cursor: pointer;
 }
 
 .container-input span {
